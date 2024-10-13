@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+  
+}
+body{
+  background: #f2f2f2;
+}
+.patient{
+  padding-left: 500px;
+  margin-bottom: 60px;
+}
+.patient h2{
+  margin-top: 100px;
+}
+.table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 100%;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+.table thead tr{
+  color: #f1f1f1;
+  background: #000;
+  text-align: left;
+  font-weight: bold;
+}
+.table th,
+.table td{
+  padding: 12px 15px;
+}
+.table tbody tr{
+  border-bottom: 1px solid #ddd;
+}
+.table tbody tr:nth-of-type(odd){
+  background: #f3f3f3;
+}
