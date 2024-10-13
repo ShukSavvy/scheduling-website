@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+  
+}
+body{
+  background-color: white;
+  /* background: url(../img/servicess.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-position: center center;
+  position: relative; */
+    
+}
+button {
+  color: white;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn{
+  background: green;
+}
+.log{
+  padding-left: 1100px;
+}
+.approve-btn{
+  background: green;
+}
+.reject-btn{
+  background: green;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.patient{
+  padding-left: 500px;
+  margin-bottom: 0px;
+}
+.patient h2{
+  margin-top: 100px;
+}
+.input-box{
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border: 1px solid #999;
+  outline: none;
+} 
+.mail{
+  padding-left: 120px;
+}
+.attendance-list{
+  padding-left: 120px;
+}
+.table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 100%;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+.table thead tr{
+  color: #f1f1f1;
+  background: #000;
+  text-align: left;
+  font-weight: bold;
+}
+.table th,
+.table td{
+  padding: 12px 15px;
+}
+.table tbody tr{
+  border-bottom: 1px solid #ddd;
+}
+.table tbody tr:nth-of-type(odd){
+  background: #f3f3f3;
+}
